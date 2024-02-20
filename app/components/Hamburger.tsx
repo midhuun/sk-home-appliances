@@ -18,10 +18,7 @@ const Hamburger = () => {
   return (
     <>
       <div className="flex  top-0">
-        <button
-          className={clsx({ hidden: isClicked, block: !isClicked })}
-          onClick={showMenu}
-        >
+        <button className={isClicked ? "hidden" : "block"} onClick={showMenu}>
           <RxHamburgerMenu color="white" size={24} />
         </button>
         <button
