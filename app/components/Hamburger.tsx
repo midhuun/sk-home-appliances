@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import clsx from "clsx";
 import React, { useContext, useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
